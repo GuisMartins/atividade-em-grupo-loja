@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatos</title>
+    <link rel="shortcut icon" href="img/favicom55.svg" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="codigos.js"></script>
+    <style>
+      .form-control-plaintext {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Menu -->
+    <header>
+      <img id="logo" src="img/squad55.svg" alt="Logotipo" />
+
+      <nav class="">
+        <ul class="d-flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="#">Contatos</a></li>
+          <li><a target="_blank" href="cupom.html">Cupom</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <center>
+        <h1 class="mt-4 mb-4">Entre em contato</h1>
+        <form id="form" class="aling-content-center bg-gradient-primary">
+          <p>
+            <input
+              type="text"
+              class="form-control-plaintext"
+              placeholder="Digite seu nome"
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              class="form-control-plaintext"
+              placeholder="Digite seu e-mail"
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              class="form-control-plaintext"
+              placeholder="Digite seu telefone"
+            />
+          </p>
+          <textarea
+            class="form-control-plaintext"
+            name="comentário"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Digite sua mensagem"
+          ></textarea>
+          <div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </center>
+    </main>
+    <footer class="fixed-bottom"></footer>
+  </body>
+</html>
